@@ -1,28 +1,24 @@
 ﻿  UnitVectorTest.cpp
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(140,26): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(139): message : while compiling class template member function 'T &myVector<T>::operator [](int) const'
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(79,26): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(78): message : while compiling class template member function 'void myVector<const char *>::addAt(int,const T &)'
           with
           [
-              T=UnitVectorTest::Node
+              T=const char *
           ]
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(107): message : see reference to function template instantiation 'T &myVector<T>::operator [](int) const' being compiled
+C:\Users\Ali\source\repos\MyVector\UnitVectorTest\UnitVectorTest.cpp(228): message : see reference to function template instantiation 'void myVector<const char *>::addAt(int,const T &)' being compiled
           with
           [
-              T=UnitVectorTest::Node
+              T=const char *
           ]
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(103): message : see reference to class template instantiation 'myVector<UnitVectorTest::Node>' being compiled
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(81,26): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(80): message : while compiling class template member function 'int myVector<int>::remove(int)'
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(32): message : see reference to function template instantiation 'int myVector<int>::remove(int)' being compiled
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(87,2): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\VectorIterator\myVector.h(89,12): warning C4018: '>=': signed/unsigned mismatch
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(137,29): error C2676: binary '==': 'const T' does not define this operator or a conversion to a type acceptable to the predefined operator
-          with
-          [
-              T=UnitVectorTest::Node
-          ]
-C:\Users\Ali\Downloads\Personal_Projects-master\VectorIterator\UnitVectorTest\UnitVectorTest.cpp(107): message : see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<T>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
-          with
-          [
-              T=UnitVectorTest::Node
-          ]
+C:\Users\Ali\source\repos\MyVector\UnitVectorTest\UnitVectorTest.cpp(93): message : see reference to class template instantiation 'myVector<const char *>' being compiled
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(97,2): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<int>::contains<int,int,int>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<double>::contains<double,double>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<int>::contains<int,int,int,int>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<UnitVectorTest::Node *>::contains<UnitVectorTest::Node *,UnitVectorTest::Node *,UnitVectorTest::Node *>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<int>::contains<int,int>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<double>::contains<double>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<UnitVectorTest::Node *>::contains<UnitVectorTest::Node *,UnitVectorTest::Node *>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<int>::contains<int>': not all control paths return a value
+C:\Users\Ali\source\repos\MyVector\VectorIterator\myVector.h(171): warning C4715: 'myVector<UnitVectorTest::Node *>::contains<UnitVectorTest::Node *>': not all control paths return a value
+  UnitVectorTest.vcxproj -> C:\Users\Ali\source\repos\MyVector\VectorIterator\Debug\UnitVectorTest.dll

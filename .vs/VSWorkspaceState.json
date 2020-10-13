@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\VectorIterator",
-    "\\VectorIterator\\UnitTests"
+    "\\MyVector",
+    "\\UnitVectorTest",
+    "\\UnitVectorTest\\Debug"
   ],
-  "SelectedNode": "\\VectorIterator\\myVector.h",
+  "SelectedNode": "\\MyVector\\UnitTests.sln",
   "PreviewInSolutionExplorer": false
 }
